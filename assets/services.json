@@ -1,25 +1,53 @@
 {
-	"services": [
-		{
-			"name": "Part I Crime Incidents",
-			"path": "PhilaGov/Police_Incidents",
-			"layer": 0,
-			"description": "Philadelphia Part I crimes since 1/1/06. Updated daily from the Police Dept.",
-			"metadata": "http://gis.phila.gov/data/Police_Crime_Incident_metadata.docx"
-		},
-		{
-			"name": "Part I Crime Incidents Last 30 Days",
-			"path": "PhilaGov/Police_Incidents_Last30",
-			"layer": 0,
-			"description": "Crime Incidents Part I over the last 30 Days. Updated daily from the Police Dept.",
-			"metadata": "http://gis.phila.gov/data/Police_Crime_Incident_metadata.docx"
-		},
-		{
-			"name": "OPA AVI 2013-14",
-			"path": "OPA/AVI_2013_2014_ADDL",
-			"layer": 0,
-			"description": "Philadelphia Property Accessments for 2013 and 2014.",
-			"metadata": "http://opendataphilly.org/opendata/resource/225/opa-property-assessments/"
+    "services": [
+        {
+            "name": "Part I Crime Incidents",
+            "path": "PhilaGov/Police_Incidents",
+            "layer": 0,
+            "description": "Philadelphia Part I crimes since 1/1/06. Updated daily from the Police Dept.",
+            "metadata": "http://gis.phila.gov/data/Police_Crime_Incident_metadata.docx"
+        },
+        {
+            "name": "Part I Crime Incidents Last 30 Days",
+            "path": "PhilaGov/Police_Incidents_Last30",
+            "layer": 0,
+            "description": "Crime Incidents Part I over the last 30 Days. Updated daily from the Police Dept.",
+            "metadata": "http://gis.phila.gov/data/Police_Crime_Incident_metadata.docx"
+        },
+        {
+            "name": "Health Centers",
+            "path": "PhilaGov/Health_Centers",
+            "layer": 0,
+            "description": "Health Centers in Philadelphia operated by the Philadelphia Department of Public Health or community health centers (Federally Qualified Health Centers)",
+            "metadata": "http://www.arcgis.com/home/item.html?id=28ef9fd21a794d16873e765300d4232e"
+        },
+        {
+            "name": "KEYSPOT Locations",
+            "path": "PhilaGov/Keyspot_Locations",
+            "layer": 0,
+            "description": "KEYSPOT Locations",
+            "metadata": "http://www.arcgis.com/home/item.html?id=95f5a4e1324c40ee850ba433263540a6"
+        },
+        {
+            "name": "High Rise Rally Points",
+            "path": "PhilaGov/High_Rise_Rally_Points",
+            "layer": 0,
+            "description": "High rise office buildings (seven stories or more) and their evacuation rally points",
+            "metadata": "http://www.arcgis.com/home/item.html?id=d0d970c442264a58baaaaa42b5a8f495"
+        },
+        {
+            "name": "Evacuation Rally points",
+            "path": "PhilaGov/High_Rise_Rally_Points",
+            "layer": 1,
+            "description": "Evacuation rally points in the case of an emergency",
+            "metadata": "http://www.arcgis.com/home/item.html?id=d0d970c442264a58baaaaa42b5a8f495"
+        },
+        {
+            "name": "Evacuation Routes",
+            "path": "PhilaGov/Evacuation_Routes",
+            "layer": 2,
+            "description": "Identify different evacuation routes out of your neighborhood based on whether you will be walking, driving, or taking public transportation",
+            "metadata": "http://www.arcgis.com/home/item.html?id=0bec3e598abb4b969ae5367b3f8c6a95"
         },
         {
             "name": "Farmer's Markets",
@@ -28,19 +56,22 @@
             "description": "Philadelphia farmer's market locations.",
             "metadata": ""
         },
-        {   "name": "Fire Stations",
+        {
+            "name": "Fire Stations",
             "path": "PhilaGov/Fire_Stations",
             "layer": 0,
             "description": "Philadelphia fire stations.",
             "metadata": ""
         },
-        {   "name": "Golf Courses",
+        {
+            "name": "Golf Courses",
             "path": "PhilaGov/Golf_Courses",
             "layer": 0,
             "description": "Golf courses throughout Philadelphia.",
             "metadata": ""
         },
-        {   "name": "Healthy Corner Stores",
+        {
+            "name": "Healthy Corner Stores",
             "path": "PhilaGov/Healthy_Corner_Stores",
             "layer": 0,
             "description": "Healthy corner stores and enhanced corner stores throughout Philadelphia.",
@@ -206,7 +237,90 @@
             "layer": 10,
             "description": "Philadelphia political ward boundaries.",
             "metadata": ""
+        },
+        {
+            "name": "Prohibited Vending Streets",
+            "path": "PhilaGov/Prohibited_Vending",
+            "layer": 0,
+            "description": "Street segments where vending is prohibited within the city of Philadelphia.",
+            "metadata": ""
+        },
+        {
+            "name": "Prohibited Vending Districts",
+            "path": "PhilaGov/Prohibited_Vending",
+            "layer": 1,
+            "description": "Areas where vending & sidewalk sales are prohibited without permission from The City of Philadelphia.",
+            "metadata": ""
+        },
+        {
+            "name": "Prohibited Vending Areas",
+            "path": "PhilaGov/Prohibited_Vending",
+            "layer": 2,
+            "description": "Areas where vending & sidewalk sales are prohibited without permission from The City of Philadelphia.",
+            "metadata": ""
+        },
+        {
+            "name": "Tennis Courts",
+            "path": "PhilaGov/Recreation_Locations",
+            "layer": 0,
+            "description": "Philadelphia tennis courts",
+            "metadata": ""
+        },
+        {
+            "name": "Street Hockey",
+            "path": "PhilaGov/Recreation_Locations",
+            "layer": 1,
+            "description": "Philadelphia street hockey rinks and courts",
+            "metadata": ""
+        },
+        {
+            "name": "Handball Courts",
+            "path": "PhilaGov/Recreation_Locations",
+            "layer": 2,
+            "description": "Philadelphia handball courts",
+            "metadata": ""
+        },
+        {
+            "name": "Basketball courts",
+            "path": "PhilaGov/Recreation_Locations",
+            "layer": 3,
+            "description": "Philadelphia basketball courts",
+            "metadata": ""
+        },
+        {
+            "name": "Volleyball courts",
+            "path": "PhilaGov/Recreation_Locations",
+            "layer": 4,
+            "description": "Philadelphia volleyball courts",
+            "metadata": ""
+        },
+        {
+            "name": "Older Adult Centers",
+            "path": "PhilaGov/Recreation_Locations",
+            "layer": 5,
+            "description": "Philadelphia older adult centers",
+            "metadata": ""
+        },
+        {
+            "name": "Fountains",
+            "path": "PhilaGov/Recreation_Locations",
+            "layer": 6,
+            "description": "Philadelphia fountains",
+            "metadata": ""
+        },
+        {
+            "name": "Athletic Fields",
+            "path": "PhilaGov/Recreation_Locations",
+            "layer": 7,
+            "description": "Philadelphia athletic fields",
+            "metadata": ""
+        },
+        {
+            "name": "Athletic Tracks",
+            "path": "PhilaGov/Recreation_Locations",
+            "layer": 8,
+            "description": "Philadelphia athletic tracks",
+            "metadata": ""
         }
     ]
 }
-
